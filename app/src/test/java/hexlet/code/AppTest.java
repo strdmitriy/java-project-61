@@ -26,6 +26,6 @@ class ApplicationTest {
     @Test
     void testMain() {
         App.main(null);
-        assertEquals("Hello, World!", output.toString(StandardCharsets.UTF_8).trim());
+        assertEquals("Welcome to the Brain Games!", output.toString(StandardCharsets.UTF_8).trim());
     }
 }
